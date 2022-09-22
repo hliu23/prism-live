@@ -1,0 +1,20 @@
+{
+  "name": "prism-live",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hliu23/prism-live.git"
+  },
+  "author": "PrismJS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hliu23/prism-live/issues"
+  },
+  "homepage": "https://github.com/hliu23/prism-live#readme"
+}
