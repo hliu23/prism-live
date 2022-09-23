@@ -3,16 +3,14 @@
 	Works best in Chrome. Currently only very basic support in other browsers (no snippets, no shortcuts)
 	@author Lea Verou
 */
-(async function() {
 
+(async function() {
 const CURRENT_URL = document.currentScript? new URL(document.currentScript.src) : null;
 
 if (!window.Bliss) {
-	// Load Bliss if not loaded
-	console.log("Bliss not loaded. Loading remotely from blissfuljs.com");
 
 	let bliss = document.createElement("script");
-	bliss.src = "https://blissfuljs.com/bliss.shy.min.js";
+	bliss.src = "./bliss/bliss.shy.min.js";
 	document.head.appendChild(bliss);
 
 	await new Promise(resolve => bliss.onload = resolve);
