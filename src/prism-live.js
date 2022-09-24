@@ -10,7 +10,7 @@ const CURRENT_URL = document.currentScript? new URL(document.currentScript.src) 
 if (!window.Bliss) {
 
 	let bliss = document.createElement("script");
-	bliss.src = "https://blissfuljs.com/bliss.shy.min.js";
+	bliss.src = "../node_modules/blissfuljs/bliss.shy.js";
 	document.head.appendChild(bliss);
 
 	await new Promise(resolve => bliss.onload = resolve);

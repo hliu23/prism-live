@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hliu23/prism-live/issues"
   },
-  "homepage": "https://github.com/hliu23/prism-live#readme"
+  "homepage": "https://github.com/hliu23/prism-live#readme",
+  "dependencies": {
+    "blissfuljs": "^1.0.6"
+  }
 }
